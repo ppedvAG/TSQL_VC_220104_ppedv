@@ -1,0 +1,13 @@
+/****** Skript für SelectTopNRows-Befehl aus SSMS ******/
+SELECT TOP (1000) [CustomerID]
+      ,[CompanyName]
+      ,[ContactName]
+      ,[ContactTitle]
+      ,[Address]
+      ,[City]
+      ,[Region]
+      ,[PostalCode]
+      ,[Country]
+      ,[Phone]
+      ,[Fax]
+  FROM [Northwind].[dbo].[Customers]
